@@ -1,9 +1,5 @@
 const Dream_Image = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Dream_Image
+export default Dream_Image;
