@@ -4,7 +4,7 @@ import Door from "../components/Door";
 const Home = () => {
   return (
     <>
-      <div class='w-full min-h-screen flex justify-center flex-col items-center bg-sky-100/10'>
+      <div class='w-full min-h-screen flex justify-center flex-col items-center bg-sky-100'>
         <div class="w-full flex p-8 justify-center">
           <h1 class="text-4xl w-96 font-bold text-center bg-linear-to-r from-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
             Roubo de Sonhos
