@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Wizards Magic';
-  src: url('font/Wizards Magic.ttf') format('truetype'); 
+  src: url('/font/Wizards Magic.ttf') format('truetype'); 
   font-weight: normal; 
   font-style: normal; 
 }
