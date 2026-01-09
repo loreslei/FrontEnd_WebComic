@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/purity */
+import './Sky.css'
 import { useMemo } from 'react';
 
 const Sky = () => {
@@ -50,39 +51,7 @@ const Sky = () => {
 
   return (
     
-    <div className="fixed top-0 left-0 w-full h-svh bg-neutral-950 z-0 overflow-hidden pointer-events-none translate-z-0">
-      <style>{`
-        @keyframes twinkle {
-          0%, 100% { opacity: 0.1; transform: scale(0.8); } 
-          50% { opacity: 0.7; transform: scale(1); } 
-        }
-        
-        .star-twinkle {
-          animation-name: twinkle;
-          animation-timing-function: ease-in-out;
-          animation-iteration-count: infinite;
-          opacity: 0.1; 
-        }
-
-        @keyframes shooting {
-          0% { 
-              transform: translateX(0) translateY(0) rotate(-35deg); 
-              opacity: 0; 
-          }
-          10% { opacity: 1; } 
-          80% { opacity: 0.8; }
-          100% { 
-              transform: translateX(-700px) translateY(500px) rotate(-35deg); 
-              opacity: 0; 
-          }
-        }
-        .shooting-star {
-          animation: shooting 7s ease-in-out infinite;
-          box-shadow: 0 0 8px 1px rgba(180, 200, 255, 0.4);
-          background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-        }
-      `}</style>
-      
+    <div className="fixed top-0 left-0 w-full h-svh bg-neutral-950 z-0 overflow-hidden pointer-events-none translate-z-0">      
       {stars}
       {shootingStars}
     </div>

@@ -1,11 +1,15 @@
+import { motion } from "framer-motion";
 import sonho from "../assets/data";
 import Door from "../components/Door";
-import Sky from "../components/Sky";
+import Sky from "../components/Sky/Sky";
 
 
 const Home = () => {
   return (
-    <>
+    <motion.div initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.25 }}>
       <Sky />
       <div class="w-full min-h-screen flex justify-center flex-col items-center relative z-10 p-8 gap-15">
         <p class="text-5xl font-bold text-center bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent p-3">
@@ -34,7 +38,7 @@ const Home = () => {
           Adicionar Sonho <span class="material-symbols-outlined translate-y-0.5">partly_cloudy_night</span>
         </a>
       </div>
-    </>
+    </motion.div>
   );
 };
 
