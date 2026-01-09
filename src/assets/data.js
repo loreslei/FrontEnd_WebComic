@@ -4,7 +4,7 @@ let sonho = [
         nome: "Filho",
         url_imagem: '/images/beds/son.png',
         quadrinho: ['/images/younger_daughter/01.jpg', '/images/younger_daughter/02.jpg'],
-        color_bg: 'bg-orange-400/70',
+        color_bg: 'bg-orange-400',
 
     },
 
@@ -13,7 +13,7 @@ let sonho = [
         nome: "Caçulinha",
         url_imagem: '/images/beds/younger_daughter.png',
         quadrinho: ['/images/younger_daughter/01.jpg', '/images/younger_daughter/02.jpg'],
-        color_bg: 'bg-fuchsia-200/50',
+        color_bg: 'bg-fuchsia-200',
     },
 
     {
