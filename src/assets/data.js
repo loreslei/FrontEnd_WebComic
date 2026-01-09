@@ -1,27 +1,27 @@
 let sonho = [
     {   
-        id: 'father',
-        nome: "Pai",
-        url_imagem: '/images/cinnamoroll.jpg',
+        id: 'son',
+        nome: "Filho",
+        url_imagem: '/images/beds/son.png',
         quadrinho: ['/images/younger_daughter/01.jpg', '/images/younger_daughter/02.jpg'],
-        color_bg: 'bg-blue-200/50',
+        color_bg: 'bg-orange-400/70',
 
     },
 
     {
-        id: 'yg_daughter',
-        nome: "Filha",
+        id: 'younger_daughter',
+        nome: "Caçulinha",
         url_imagem: '/images/beds/younger_daughter.png',
         quadrinho: ['/images/younger_daughter/01.jpg', '/images/younger_daughter/02.jpg'],
         color_bg: 'bg-fuchsia-200/50',
     },
 
     {
-        id: 'son',
-        nome: "Filho",
-        url_imagem: '/images/sylveon.png',
+        id: 'daughter',
+        nome: "Filha",
+        url_imagem: '/images/beds/daughter.png',
         quadrinho: ['/images/younger_daughter/01.jpg', '/images/younger_daughter/02.jpg'],
-        color_bg: 'bg-pink-200/50',
+        color_bg: 'bg-indigo-400',
     }
 ];
 

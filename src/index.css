@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Wizards Magic';
+  src: url('font/Wizards Magic.ttf') format('truetype'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+a, p, h1, div, button {
+  font-family: 'Wizards Magic', sans-serif;
+}
