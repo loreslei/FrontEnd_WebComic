@@ -13,6 +13,7 @@ a, p, h1, div, button {
 }
 
 html, body {
-  background-color: #0a0a0a;
-  overscroll-behavior-y: none; 
+  background-color: #0a0a0a; /* Esse é o hex do neutral-950 */
+  margin: 0;
+  padding: 0;
 }
