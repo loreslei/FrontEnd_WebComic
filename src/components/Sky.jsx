@@ -50,7 +50,7 @@ const Sky = () => {
 
   return (
     
-    <div className="fixed inset-0 w-full h-full bg-neutral-950 -z-10 overflow-hidden pointer-events-none">
+    <div className="fixed inset-0 w-full h-full bg-neutral-950 z-0 overflow-hidden pointer-events-none">
       <style>{`
         @keyframes twinkle {
           0%, 100% { opacity: 0.1; transform: scale(0.8); } 

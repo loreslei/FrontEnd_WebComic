@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Sky />
-      <div class="w-full min-h-screen flex justify-center flex-col items-center p-8 gap-15">
+      <div class="w-full min-h-screen flex justify-center flex-col items-center relative z-10 p-8 gap-15">
         <p class="text-5xl font-bold text-center bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent p-3">
           Roubo de Sonhos
         </p>
