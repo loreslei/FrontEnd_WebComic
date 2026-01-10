@@ -20,6 +20,10 @@ a, p, h1, div, button {
   'opsz' 24
 }
 
+.font-size-3 {
+  font-size: 3rem;
+}
+
 html, body {
   background-color: #0a0a0a; 
   overscroll-behavior-y: none; 
