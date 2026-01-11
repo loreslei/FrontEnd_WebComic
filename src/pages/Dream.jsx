@@ -25,7 +25,7 @@ const Dream = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.25 }}
-      className={`w-full min-h-screen flex flex-col items-center py-3 ${sonho.color_bg} bg-size-[40px] md:bg-size-[65px] lg:bg-size-[120px]`}
+      className={`w-full min-h-screen flex flex-col items-center py-3 ${sonho.color_bg} bg-size-[65px] lg:bg-size-[120px]`}
       style={backgroundStyle}
     >
       <div className="w-full flex flex-col justify-center items-center my-3">
