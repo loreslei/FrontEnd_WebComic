@@ -10,6 +10,7 @@ let sonho = [
         color_btn: 'bg-[#9ace79]',
         color_btn_hover: 'hover:bg-[#7FC254]',
         svg: padroes.glasses,
+        status: 'incomplete',
 
     },
     {   
@@ -21,6 +22,7 @@ let sonho = [
         color_btn: 'bg-[#f33b55]',
         color_btn_hover: 'hover:bg-[#E61E3C]',
         svg: padroes.highHeel,
+        status: 'incomplete',
 
     },
     {   
@@ -32,6 +34,7 @@ let sonho = [
         color_btn: 'bg-[#ea8b58]',
         color_btn_hover: 'hover:bg-[#E6733E]',
         svg: padroes.basketball,
+        status: 'incomplete',
 
     },
     {
@@ -43,6 +46,7 @@ let sonho = [
         color_btn: 'bg-[#8772f3]',
         color_btn_hover: 'hover:bg-[#6E57E8]',
         svg: padroes.headphones,
+        status: 'complete',
     },
     
     {
@@ -54,6 +58,7 @@ let sonho = [
         color_btn: 'bg-[#f19bc2]',
         color_btn_hover: 'hover:bg-[#E78BBA]',
         svg: padroes.teddy,
+        status: 'complete',
     }
 
 ];

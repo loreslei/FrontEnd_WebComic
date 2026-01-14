@@ -30,6 +30,7 @@ const Home = () => {
                   url={sonho.id}
                   img={sonho.url_imagem}
                   title={sonho.nome}
+                  status={sonho.status}
                 />
               );
             })}
