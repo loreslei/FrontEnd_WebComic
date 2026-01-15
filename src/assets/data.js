@@ -10,7 +10,7 @@ let sonho = [
         color_btn: 'bg-[#9ace79]',
         color_btn_hover: 'hover:bg-[#7FC254]',
         svg: padroes.glasses,
-        status: 'incomplete',
+        status: 'complete',
 
     },
     {   
