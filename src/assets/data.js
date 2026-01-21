@@ -22,7 +22,7 @@ let sonho = [
         color_btn: 'bg-[#f33b55]',
         color_btn_hover: 'hover:bg-[#E61E3C]',
         svg: padroes.highHeel,
-        status: 'incomplete',
+        status: 'complete',
 
     },
     {   
