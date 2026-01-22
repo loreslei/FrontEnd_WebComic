@@ -2,13 +2,14 @@ import { Link, useParams } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import sonhos from "../assets/data.js";
+import NotFound from "./NotFound.jsx";
 
 const Dream = () => {
   const { id } = useParams();
   const sonho = sonhos.find((s) => s.id === id);
 
-  if (!sonho) {
-    return <div>Sonho não encontrado.</div>;
+  if (!sonho || sonho.id === "son") {
+    return <NotFound />;
   }
 
   const quadrinhos = sonho.quadrinho;
