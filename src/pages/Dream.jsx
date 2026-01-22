@@ -56,7 +56,7 @@ const Dream = () => {
             src={panel}
             alt={panel}
             onLoad={handleImageLoad}
-            className={`max-w-[90%] h-auto transition-all duration-700 ${
+            className={`w-[90%] lg:w-[60%] h-auto transition-all duration-700 ${
               loading
                 ? "opacity-0 scale-95 pointer-events-none absolute"
                 : "opacity-100 scale-100"
