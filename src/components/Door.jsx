@@ -16,9 +16,9 @@ const WarningToast = ({ message, onClose }) => {
   );
 };
 
-const Door = (props) => {
+const Door = ({ img, title, url, status, onLoad }) => {
   const [showAlert, setShowAlert] = useState(false);
-  const isComplete = props.status === 'complete';
+  const isComplete = status === 'complete';
 
   useEffect(() => {
     if (showAlert) {
@@ -50,15 +50,16 @@ const Door = (props) => {
       )}
 
       <Link 
-        to={`/dream/${props.url}`} 
+        to={`/dream/${url}`} 
         onClick={handleClick}
         className={!isComplete ? "cursor-default" : ""}
       >
         <div className={cardClasses}>
           <img 
             className="object-cover w-full h-full rounded-lg" 
-            src={props.img} 
-            alt={props.title} 
+            src={img} 
+            alt={title} 
+            onLoad={onLoad}  
           />
         </div>
       </Link>
