@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion"
 import Home from "./pages/Home"
 import Dream from "./pages/Dream"
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop"
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -22,6 +23,7 @@ const AnimatedRoutes = () => {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <AnimatedRoutes />
     </BrowserRouter>
   )
