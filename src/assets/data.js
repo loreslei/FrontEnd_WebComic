@@ -29,12 +29,12 @@ let sonho = [
         id: 'son',
         nome: "Filho",
         url_imagem: '/images/beds/son.png',
-        quadrinho: ['/images/dreams/son/01.jpg', '/images/dreams/son/02.jpg'],
+        quadrinho: ['/images/dreams/son/obras.jpg'],
         color_bg: 'bg-[#faccb3]',
         color_btn: 'bg-[#ea8b58]',
         color_btn_hover: 'hover:bg-[#E6733E]',
         svg: padroes.basketball,
-        status: 'incomplete',
+        status: 'complete',
 
     },
     {

@@ -12,7 +12,7 @@ const Dream = () => {
 
   const sonho = sonhos.find((s) => s.id === id);
 
-  if (!sonho || sonho.id === "son") {
+  if (!sonho) {
     return <NotFound />;
   }
 

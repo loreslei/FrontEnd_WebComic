@@ -30,7 +30,13 @@ const Home = () => {
       transition={{ duration: 0.25 }}
     >
       <Sky />
-      <div class="w-full min-h-screen flex justify-center flex-col items-center relative z-10 p-8 gap-15">
+      <div class="w-full min-h-screen flex justify-center flex-col items-center relative z-10 p-8 gap-15 2xl:overflow-hidden">
+
+        
+        <div className="absolute max-w-[24%] opacity-0 bottom-0 left-0 z-10 2xl:translate-y-20 2xl:opacity-100">
+          <img className="" src="/images/ladrao.png" alt="Ladrão" />
+        </div>
+
         <div class="flex items-center justify-center">
           <p class="text-5xl lg:inline font-bold text-center bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent pt-3">
             Roubo de Sonhos
